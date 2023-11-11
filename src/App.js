@@ -3,9 +3,7 @@ import Form from "./components/Forms";
 
 function App() {
   return {
-    <>
       <Forms></Forms>
-    </>
   );
 }
 
