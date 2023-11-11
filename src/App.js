@@ -7,5 +7,7 @@ function App() {
       <Forms></Forms>
     </>
   );
+  
+}
 
 export default App;
