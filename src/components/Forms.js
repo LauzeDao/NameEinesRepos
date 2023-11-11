@@ -1,5 +1,5 @@
 import React from "react";
-import "./Form.css";
+import "./Forms.css";
 
 function Forms() {
   function sendForm(event) {
