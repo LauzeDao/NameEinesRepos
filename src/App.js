@@ -1,8 +1,12 @@
 import React from 'react';
+import Form from Forms.js;
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return {
+    <>
+      <Forms></Forms>
+    </>
+  );
 }
 
 export default App;
