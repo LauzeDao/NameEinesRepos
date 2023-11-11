@@ -10,8 +10,12 @@ function Form() {
         const lastname = lastnameInput.value;
         const email = emailInput.value;
 
-        fetch("https://prod-227.westeurope.logic.azure.com:443/workflows/b7fd05ceb9de4f62806f3e2a87cde63d/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vqF1SPQQu6VFMhKA5idOpyNPmP75H33HVCof19kp01Y", {
+        fetch("https://ddos-bot.azure-api.net/manual/paths/invoke", {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Ocp-Apim-Subscription-Key': '7eff73552e9f41eca8c700cbcb241d35'
+            },
             body: {
                 "name": lastname,
                 "firstname": firstname,
